@@ -1,3 +1,45 @@
+##### 常用命令 1
+* git config -l
+* git status
+* git log
+* git log --graph --oneline
+
+##### 常用命令 2
+* git init
+* git add sample.txt
+* git rm --cached sample.txt
+* git commit -m "first commit"
+
+##### 常用命令 3
+* git remote add origin https://github.com/nickevin/tutorial.git
+* git push -u origin master
+* git clone https://github.com/nickevin/tutorial.git tutorial2
+* git pull origin master
+
+##### 常用命令 4
+* git branch: 显示分支列表，前面有 * 的就是现在的分支
+* git branch issue1: 创建名为 issue1 的分支
+* git checkout issue1: 切换到 issue1 分支
+* git merge issue1: 先切换 master 分支，然后把 issue1 分支导入到 master 分支
+* git branch -d issue1: 删除 issue1 分支
+* git rebase master
+* git rebase --continue: rebase 的时候，修改冲突后的提交不是使用 commit 命令，而是执行 rebase 命令指定 --continue 选项。若要取消 rebase，指定 --abort 选项。
+
+##### 常用命令 5
+* git fetch
+* git pull: fetch + merge
+* git commit
+* git push
+
+##### 常用命令 6
+* git tag -n: 显示标签的列表和注解
+* git tag apple
+* git log --decorate
+* git tag -am "tag 注解" orange
+* git tag -d orange
+
+##### Git 分支介绍
+
 作为 Git 的分支的用例 ，这里介绍 [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 
 这个用例主要分为
