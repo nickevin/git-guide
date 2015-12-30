@@ -1,1 +1,2 @@
-git remote add origin https://[your_space_id].backlogtool.com/git/[your_project_key]/tutorial.git
+连猴子都懂的Git命令
+add 把变更录入到索引中
