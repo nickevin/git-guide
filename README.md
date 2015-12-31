@@ -3,6 +3,7 @@
 * git status
 * git log
 * git log --graph --oneline
+* git reflog: 查看所有分支的所有操作记录
 
 ##### 常用命令 2
 * git init
@@ -37,6 +38,14 @@
 * git log --decorate
 * git tag -am "tag 注解" orange
 * git tag -d orange
+
+#### 配置 .gitconfig
+
+* alias
+
+     glog = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+     
+    gloglast = log -1 HEAD --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 
 ##### Git 分支介绍
 
