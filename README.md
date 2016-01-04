@@ -32,10 +32,10 @@
 * git commit
 * git push
 
-##### 常用命令 6
+##### tag
 * git tag -n: 显示标签的列表和注解
 * git tag apple
-* git log --decorate
+* git log --decorate: 显示出tag信息
 * git tag -am "tag 注解" orange
 * git tag -d orange
 
