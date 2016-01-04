@@ -39,6 +39,11 @@
 * git tag -am "tag 注解" orange
 * git tag -d orange
 
+##### grep
+* git grep 查询的内容: 查询所有“查询的内容”的文件
+* git grep -n 查询的内容: 显示行号
+* git grep --name-only 查询的内容: 只显示文件名 
+
 #### 配置 .gitconfig
 
 * alias
