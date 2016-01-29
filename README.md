@@ -42,7 +42,10 @@
 ##### grep
 * git grep 查询的内容: 查询所有“查询的内容”的文件
 * git grep -n 查询的内容: 显示行号
-* git grep --name-only 查询的内容: 只显示文件名 
+* git grep --name-only 查询的内容: 只显示文件名
+
+##### 撤销操作
+* [https://egoist.github.io/2015/10/04/how-to-undo-with-git/](https://egoist.github.io/2015/10/04/how-to-undo-with-git/)
 
 #### 配置 .gitconfig
 
