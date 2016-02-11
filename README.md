@@ -44,8 +44,9 @@
 * git grep -n 查询的内容: 显示行号
 * git grep --name-only 查询的内容: 只显示文件名
 
-##### 撤销操作
-* [https://egoist.github.io/2015/10/04/how-to-undo-with-git/](https://egoist.github.io/2015/10/04/how-to-undo-with-git/)
+##### Misc
+* 如何在 Git 中使用撤消操作：[https://egoist.github.io/2015/10/04/how-to-undo-with-git/](https://egoist.github.io/2015/10/04/how-to-undo-with-git/)
+* Git 与 Repo 入门：[http://www.cnblogs.com/angeldevil/p/3238470.html](http://www.cnblogs.com/angeldevil/p/3238470.html)
 
 #### 配置 .gitconfig
 
